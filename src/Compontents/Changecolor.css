@@ -1,0 +1,55 @@
+/* إعدادات عامة للمربع */
+.color-box {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px; /* جعل الزوايا دائرية */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+    transition: all 0.5s ease; /* إضافة تأثير انتقال */
+  }
+  
+  /* تصميم input */
+  .color-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* تغيير لون border عند التركيز على input */
+  .color-input:focus {
+    border-color: #66b3ff;
+  }
+  
+  /* تصميم الزرار */
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5c8d;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* تغيير لون الزرار عند التمرير */
+  .reset-button:hover {
+    background-color: #ff1f63;
+  }
+  
+  /* تغيير اللون عند تغيير الخلفية */
+  .color-box {
+    transition: background-color 0.5s ease;
+  }
+  

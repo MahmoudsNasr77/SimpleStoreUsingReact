@@ -1,0 +1,56 @@
+.products-list {
+  width: 85%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* optional for nice gaps */
+}
+
+.product-card {
+  width: 23%;
+  margin: 1%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-card h2 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-size: 18px;
+  color: #555;
+}
+/* Add this CSS to your stylesheet or in the component's CSS file */
+
+/* Add this CSS to your stylesheet */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
